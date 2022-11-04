@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 33000013298018530}
   - component: {fileID: 23000013919562832}
   - component: {fileID: 114000013110704100}
-  - component: {fileID: 114000010258907464}
   - component: {fileID: 65000013346445076}
+  - component: {fileID: -3846223498781248941}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Gem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,7 +43,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000011281862712}
-  m_Mesh: {fileID: 4300000, guid: f810a82c4bf58d646b9ef8bdce1668a3, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 817ad5138c5141641975ddebe9453849, type: 3}
 --- !u!23 &23000013919562832
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1cea35320a20d47428f0d71909a01613, type: 2}
+  - {fileID: 2100000, guid: 701e58a0f5c4a754c9a71e291b9d2935, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -98,18 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 764b60f3d4c3710448927f6e62b204ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114000010258907464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000011281862712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b9467434aa2b724fad2631704e851b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &65000013346445076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -123,3 +111,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9482548, y: 0.9990898, z: 0.31642127}
   m_Center: {x: 0.000000029802322, y: 0.4987869, z: -0.000000022351742}
+--- !u!114 &-3846223498781248941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011281862712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4331ce1b7e3b342c5a8763e7d1a1e0db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
